@@ -432,9 +432,6 @@
   </object>
   <object id="173" x="2531.45" y="569.455" width="12.5455" height="5.27273"/>
  </objectgroup>
- <imagelayer id="5" name="blur" repeatx="1" repeaty="1">
-  <image source="textures/blur.jpg" width="4096" height="4096"/>
- </imagelayer>
  <imagelayer id="2" name="ch4">
   <image source="textures/map_ch_4.png" width="3200" height="1777"/>
  </imagelayer>
