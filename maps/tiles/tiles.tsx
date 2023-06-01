@@ -61,7 +61,7 @@
    <wangtile tileid="10" wangid="0,1,0,1,0,1,0,1"/>
    <wangtile tileid="11" wangid="0,1,0,1,0,1,0,1"/>
   </wangset>
-  <wangset name="Random Radiation" type="mixed" tile="6">
+  <wangset name="Random Radiation" type="corner" tile="6">
    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
    <wangtile tileid="6" wangid="0,1,0,1,0,1,0,1"/>
    <wangtile tileid="10" wangid="0,1,0,1,0,1,0,1"/>

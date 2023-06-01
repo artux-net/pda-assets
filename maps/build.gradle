@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+group = 'com.github.artux-net'
+version = '0.1'
+
+repositories {
+  mavenCentral()
+}
+
+jar{
+    from('.') {
+          include '*.tmx'
+          include 'textures/'
+          include 'tiles/'
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'net.artux'
+            artifactId = 'pda-maps'
+            version = "0.1"
+
+		    from components.java
+
+		    pom {
+                description = 'Tiled maps for PDA'
+
+            }
+        }
+    }
+}
+
