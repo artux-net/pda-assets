@@ -22,10 +22,10 @@
  <tile id="5" probability="0.5">
   <image width="8" height="8" source="grass.png"/>
  </tile>
- <tile id="6" probability="0.05">
+ <tile id="6" probability="0.15">
   <image width="8" height="8" source="radiation_weak.png"/>
  </tile>
- <tile id="7" probability="0.3">
+ <tile id="7" probability="0.9">
   <image width="8" height="8" source="swamp.png"/>
  </tile>
  <tile id="8">
@@ -51,6 +51,7 @@
   <wangset name="Water" type="corner" tile="8">
    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
    <wangtile tileid="3" wangid="0,1,0,1,0,1,0,1"/>
+   <wangtile tileid="6" wangid="0,1,0,1,0,1,0,1"/>
    <wangtile tileid="7" wangid="0,1,0,1,0,1,0,1"/>
    <wangtile tileid="8" wangid="0,1,0,1,0,1,0,1"/>
   </wangset>
