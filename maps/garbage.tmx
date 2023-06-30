@@ -229,9 +229,15 @@
    <polyline points="0,0 -0.25,29.5 78.5,30.25 78,-1"/>
   </object>
   <object id="35" x="405" y="917.25">
-   <polyline points="0,0 0,-24.25 189,-23 188.5,17.5"/>
+   <properties>
+    <property name="fire" type="bool" value="true"/>
+   </properties>
+   <polyline points="0.583333,-8.41667 0,-24.25 190.333,-24.3333 190.833,16.1667"/>
   </object>
   <object id="36" x="594" y="964.25">
+   <properties>
+    <property name="fire" type="bool" value="true"/>
+   </properties>
    <polyline points="0,0 0.25,44.75 -186.75,45 -187.25,-19.75"/>
   </object>
   <object id="37" x="596.75" y="530.5" width="8.5" height="9.5"/>
@@ -253,11 +259,14 @@
    <polyline points="0,0 -0.25,-22.75 103,-23.25 103,0.25"/>
   </object>
   <object id="50" x="565.5" y="569.25">
+   <properties>
+    <property name="fire" type="bool" value="false"/>
+   </properties>
    <polyline points="0,0 0.75,21.5 -104.5,21 -104,-5.5"/>
   </object>
   <object id="51" x="411" y="635" width="10" height="9.875"/>
  </objectgroup>
- <imagelayer id="6" name="blur" visible="0" repeatx="1" repeaty="1">
+ <imagelayer id="6" name="blur" repeatx="1" repeaty="1">
   <image source="textures/blur.jpg" width="4096" height="4096"/>
  </imagelayer>
  <imagelayer id="2" name="Garbage-map" locked="1">
