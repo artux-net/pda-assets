@@ -1,0 +1,110 @@
+﻿[
+    {
+        "group": "loners",
+        "loners": "0",
+        "bandits": "-100",
+        "military": "-50",
+        "liberty": "25",
+        "duty": "25",
+        "monolith": "-100",
+        "mercenaries": "0",
+        "scientists": "10",
+        "clearSky": "10"
+    },
+    {
+        "group": "bandits",
+        "loners": "-100",
+        "bandits": "0",
+        "military": "-100",
+        "liberty": "-50",
+        "duty": "-100",
+        "monolith": "-100",
+        "mercenaries": "-50",
+        "scientists": "-100",
+        "clearSky": "-100"
+    },
+    {
+        "group": "military",
+        "loners": "-50",
+        "bandits": "-100",
+        "military": "0",
+        "liberty": "-100",
+        "duty": "-50",
+        "monolith": "-100",
+        "mercenaries": "-50",
+        "scientists": "100",
+        "clearSky": "-100"
+    },
+    {
+        "group": "liberty",
+        "loners": "25",
+        "bandits": "-50",
+        "military": "-100",
+        "liberty": "0",
+        "duty": "-100",
+        "monolith": "-100",
+        "mercenaries": "50",
+        "scientists": "25",
+        "clearSky": "50"
+    },
+    {
+        "group": "duty",
+        "loners": "25",
+        "bandits": "-100",
+        "military": "-50",
+        "liberty": "-100",
+        "duty": "0",
+        "monolith": "-100",
+        "mercenaries": "0",
+        "scientists": "100",
+        "clearSky": "50"
+    },
+    {
+        "group": "monolith",
+        "loners": "-100",
+        "bandits": "-100",
+        "military": "-100",
+        "liberty": "-100",
+        "duty": "-100",
+        "monolith": "0",
+        "mercenaries": "-100",
+        "scientists": "-100",
+        "clearSky": "-100"
+    },
+    {
+        "group": "mercenaries",
+        "loners": "0",
+        "bandits": "-50",
+        "military": "-50",
+        "liberty": "50",
+        "duty": "0",
+        "monolith": "-100",
+        "mercenaries": "0",
+        "scientists": "25",
+        "clearSky": "25"
+    },
+    {
+        "group": "scientists",
+        "loners": "10",
+        "bandits": "-100",
+        "military": "100",
+        "liberty": "25",
+        "duty": "100",
+        "monolith": "-100",
+        "mercenaries": "25",
+        "scientists": "0",
+        "clearSky": "50"
+    },
+    {
+        "group": "clearSky",
+        "loners": "10",
+        "bandits": "-100",
+        "military": "-100",
+        "liberty": "50",
+        "duty": "50",
+        "monolith": "-100",
+        "mercenaries": "25",
+        "scientists": "50",
+        "clearSky": "0"
+    }
+]
