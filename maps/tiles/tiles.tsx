@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.2" name="bots" tilewidth="8" tileheight="8" tilecount="12" columns="0">
+<tileset version="1.9" tiledversion="1.9.2" name="bots" tilewidth="8" tileheight="8" tilecount="13" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0" probability="0.9">
   <image width="8" height="8" source="road.png"/>
  </tile>
- <tile id="1" probability="0.35">
+ <tile id="1" probability="0.15">
   <image width="8" height="8" source="ground.png"/>
  </tile>
  <tile id="2">
@@ -13,16 +13,16 @@
    <object id="1" x="0" y="0" width="8" height="8"/>
   </objectgroup>
  </tile>
- <tile id="3" probability="0.004">
+ <tile id="3" probability="0">
   <image width="8" height="8" source="anomaly.png"/>
  </tile>
- <tile id="4" probability="0.01">
+ <tile id="4" probability="0.001">
   <image width="8" height="8" source="glass.png"/>
  </tile>
- <tile id="5" probability="0.65">
+ <tile id="5" probability="0.85">
   <image width="8" height="8" source="grass.png"/>
  </tile>
- <tile id="6" probability="0.05">
+ <tile id="6" probability="0.25">
   <image width="8" height="8" source="radiation_weak.png"/>
  </tile>
  <tile id="7" probability="0.9">
@@ -31,14 +31,17 @@
  <tile id="9" probability="0.001">
   <image width="8" height="8" source="search.png"/>
  </tile>
- <tile id="10" probability="0.15">
+ <tile id="10" probability="0.05">
   <image width="8" height="8" source="radiation_middle.png"/>
  </tile>
- <tile id="11" probability="0.05">
+ <tile id="11" probability="0.15">
   <image width="8" height="8" source="radiation_strong.png"/>
  </tile>
  <tile id="8">
   <image width="8" height="8" source="water.png"/>
+ </tile>
+ <tile id="12">
+  <image width="8" height="8" source="barier.png"/>
  </tile>
  <wangsets>
   <wangset name="Random Ground" type="corner" tile="1">
